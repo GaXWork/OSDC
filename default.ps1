@@ -166,7 +166,7 @@ do {
 
 
     Write-Host -ForegroundColor Green "Starting ITM8 OSDCloud "
-    If $selection -eq '1' {
+    If ($selection -eq '1') {
         Start-OSDCloudGUI
     }
     Else{
