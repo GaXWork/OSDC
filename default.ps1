@@ -168,7 +168,7 @@ do {
 
     Write-Host -ForegroundColor Green "Starting ITM8 OSDCloud "
     If ($selection -eq '1') {
-        Start-OSDCloudGUI
+        Start-OSDCloudGUI -BrandColor '#5A179B'
     }
     Else{
         Start-OSDCloud -OSName $OSName -OSEdition $OSEdition -OSActivation $OSActivation -OSLanguage $OSLanguage 
