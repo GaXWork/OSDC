@@ -109,7 +109,7 @@ If (-not $Disks){
 $BrandName = 'ITM8'
 $BrandColor = '#5A179B'
 $OSLanguage = 'da-dk'
-﻿$OSName = 'Windows 11 24H2 x64'
+$OSName = 'Windows 11 24H2 x64'
 $OSEdition = 'Pro'
 $OSActivation = 'Retail'
 
