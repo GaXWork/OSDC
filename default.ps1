@@ -170,7 +170,7 @@ do {
     Write-Host -ForegroundColor Green "Downloading cmtrace"   
     Invoke-WebRequest -URI 'https://cmsaas.itrelation.dk/cmtrace.exe' -OutFile 'C:\Windows\cmtrace.exe'
 
-
+    start-sleep -seconds 60
     $null = Stop-Transcript -ErrorAction Ignore
 }
 #endregion
