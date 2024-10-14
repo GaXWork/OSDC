@@ -142,19 +142,19 @@ do {
     switch ($selection) {
         "1" {
             Write-Host "You selected: $($menuOptions[$selection])"
-            $BrandName = $($menuOptions[$selection])
+            $BrandName2 = $($menuOptions[$selection])
         }
         "2" {
             Write-Host "You selected: $($menuOptions[$selection])"
-            $BrandName = $($menuOptions[$selection])
+            $BrandName2 = $($menuOptions[$selection])
         }
         "3" {
             Write-Host "You selected: $($menuOptions[$selection])"
-            $BrandName = $($menuOptions[$selection])            
+            $BrandName2 = $($menuOptions[$selection])            
         }
         "4" {
             Write-Host "You selected: $($menuOptions[$selection])"
-            $BrandName = $($menuOptions[$selection])            
+            $BrandName2 = $($menuOptions[$selection])            
         }
         default {
             Write-Host "Invalid selection. Please try again."
@@ -168,7 +168,7 @@ do {
 
     Write-Host -ForegroundColor Green "Starting ITM8 OSDCloud "
     If ($selection -eq '1') {
-        Start-OSDCloudGUI -BrandColor '#5A179B'
+        Start-OSDCloudGUI -BrandColor '#5A179B' -BrandName 'ITM8'
     }
     Else{
         Start-OSDCloud -OSName $OSName -OSEdition $OSEdition -OSActivation $OSActivation -OSLanguage $OSLanguage 
