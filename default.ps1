@@ -166,7 +166,14 @@ do {
 
 
     Write-Host -ForegroundColor Green "Starting ITM8 OSDCloud "
-    Start-OSDCloud -OSName $OSName -OSEdition $OSEdition -OSActivation $OSActivation -OSLanguage $OSLanguage 
+    If $selection -eq '1' {
+        Start-OSDCloudGUI
+    }
+    Else{
+        Start-OSDCloud -OSName $OSName -OSEdition $OSEdition -OSActivation $OSActivation -OSLanguage $OSLanguage 
+    }
+    
+    
 
     Write-Host -ForegroundColor Green "Downloading Tools..."    
     Write-Host -ForegroundColor Green "Downloading Process Explorer"   
