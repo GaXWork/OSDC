@@ -52,6 +52,13 @@ else {
     else {$WindowsPhase = 'Windows'}
 }
 
+function Show-Menu {
+    Write-Host "Pick the customer:"
+    foreach ($key in $menuOptions.Keys) {
+        Write-Host "$key) $($menuOptions[$key])"
+    }
+}
+
 #Finish initialization
 Write-Host -ForegroundColor DarkGray "$ScriptName $ScriptVersion $WindowsPhase"
 
@@ -99,25 +106,70 @@ If (-not $Disks){
     Exit       
 }
 
-#Todo - Verify if TPM attestation is OK
+$BrandName = 'ITM8'
+$BrandColor = '#5A179B'
+$OSLanguage = 'da-dk'
+$Global:MyOSDCloud = [ordered]@{
+    Restart = [bool]$False
+    RecoveryPartition = [bool]$true
+    OEMActivation = [bool]$True
+    WindowsUpdate = [bool]$true
+    WindowsUpdateDrivers = [bool]$true
+    WindowsDefenderUpdate = [bool]$true
+    SetTimeZone = [bool]$true
+    ClearDiskConfirm = [bool]$true
+    ShutdownSetupComplete = [bool]$false
+    SyncMSUpCatDriverUSB = [bool]$true
+    CheckSHA1 = [bool]$true
+}
 
-#ToDo -  Check for possible Lenovo bios updates
 
-#ToDo - Check if an autopilot profile has been assigned
+$menuOptions = [ordered]@{
+    "1" = "Default OSDCloud";
+    "2" = "Randstad";
+    "3" = "Ganni";
+}
+
+# Main script
+do {
+    Show-Menu
+    $selection = Read-Host "Select the correct customer"
+    
+    switch ($selection) {
+        "1" {
+            Write-Host "You selected: $($menuOptions[$selection])"
+            $BrandName = $($menuOptions[$selection])
+        }
+        "2" {
+            Write-Host "You selected: $($menuOptions[$selection])"
+            $BrandName = $($menuOptions[$selection])
+        }
+        "3" {
+            Write-Host "You selected: $($menuOptions[$selection])"
+            $BrandName = $($menuOptions[$selection])            
+        }
+        "4" {
+            Write-Host "You selected: $($menuOptions[$selection])"
+            $BrandName = $($menuOptions[$selection])            
+        }
+        default {
+            Write-Host "Invalid selection. Please try again."
+        }
+    }
 
 
-    Write-Host -ForegroundColor Green "Starting Itrelation OSDCloud "
-    Start-OSDCloudgui 
+} while (-not $selection)
+
+
+    Write-Host -ForegroundColor Green "Starting ITM8 OSDCloud "
+    Start-OSDCloud -OSName $OSName -OSEdition $OSEdition -OSActivation $OSActivation -OSLanguage $OSLanguage -BrandName $BrandName -BrandColor $BrandColor 
 
     Write-Host -ForegroundColor Green "Downloading Tools..."    
-
     Write-Host -ForegroundColor Green "Downloading Process Explorer"   
     Invoke-WebRequest -URI 'https://live.sysinternals.com/procexp.exe' -OutFile 'C:\Windows\procexp.exe'
     Write-Host -ForegroundColor Green "Downloading cmtrace"   
     Invoke-WebRequest -URI 'https://cmsaas.itrelation.dk/cmtrace.exe' -OutFile 'C:\Windows\cmtrace.exe'
-    #Invoke-WebRequest -URI 'https://get.teamviewer.com/a1s2d3' -OutFile 'C:\Windows\TeamViewerQS.exe'
-    #Write-Host -ForegroundColor Green "Downloading Teamviewer"   
-    #Invoke-WebRequest -URI 'https://cmsaas.itrelation.dk/Teamviewer.zip'  -OutFile 'C:\osdcloud\TeamViewer.zip'
+
 
     $null = Stop-Transcript -ErrorAction Ignore
 }
