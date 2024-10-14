@@ -158,6 +158,7 @@ do {
         }
         default {
             Write-Host "Invalid selection. Please try again."
+             $selection = $null
         }
     }
 
