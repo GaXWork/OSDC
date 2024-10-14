@@ -67,11 +67,11 @@ Invoke-Expression -Command (Invoke-RestMethod -Uri functions.osdcloud.com)
 
 
 # Get the Win32_ComputerSystem WMI class
-$computerSystem = Get-WmiObject -Class Win32_ComputerSystem
-If ($computerSystem.Model.ToLower() -like "*virtual*"){
-    Write-Host -ForegroundColor Red  "Virtual host dected, setting resolution."
-    Set-DisRes 1400
-}
+#$computerSystem = Get-WmiObject -Class Win32_ComputerSystem
+#If ($computerSystem.Model.ToLower() -like "*virtual*"){
+#    Write-Host -ForegroundColor Red  "Virtual host dected, setting resolution."
+#    Set-DisRes 1400
+#}
 
 #endregion
 #=================================================
