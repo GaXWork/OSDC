@@ -114,7 +114,7 @@ $OSEdition = 'Pro'
 $OSActivation = 'Retail'
 
 $Global:MyOSDCloud = [ordered]@{
-    Restart = [bool]$False
+    Restart = [bool]$True
     RecoveryPartition = [bool]$true
     OEMActivation = [bool]$True
     WindowsUpdate = [bool]$true
