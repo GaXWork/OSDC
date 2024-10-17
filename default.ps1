@@ -181,7 +181,7 @@ do {
         "2" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])
-            $OSName = 'Windows 11 24H2 x64'
+            #$OSName = 'Windows 11 24H2 x64'
         }
         "3" {
             Write-Host "You selected: $($menuOptions[$selection])"
