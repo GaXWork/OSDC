@@ -181,17 +181,16 @@ do {
         "2" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])
+            $OSName = 'Windows 11 24H2 x64'
         }
         "3" {
             Write-Host "You selected: $($menuOptions[$selection])"
-            $BrandName2 = $($menuOptions[$selection])
+            $BrandName2 = $($menuOptions[$selection])            
         }
         "4" {
             Write-Host "You selected: $($menuOptions[$selection])"
-            $BrandName2 = $($menuOptions[$selection])
+            $BrandName2 = $($menuOptions[$selection])            
         }
-        
-        
         default {
             Write-Host "Invalid selection. Please try again."
              $selection = $null
