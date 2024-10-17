@@ -130,8 +130,26 @@ $Global:MyOSDCloud = [ordered]@{
 
 $menuOptions = [ordered]@{
     "1" = "Default OSDCloud";
-    "2" = "Randstad";
-    "3" = "Ganni";
+    "2" = "Arbejdermuseet";
+    "3" = "Bactoforce International";
+    "4" = "BlueFox";
+    Brødrene Kier A/S
+    Center for Selvmordsforskning
+    Charles Christensen A/S
+    DANVA
+    Deichmann Planter ApS
+    Den Jyske Sangskole
+    Danmarks Jægerforbund
+    E. Michaelis & Co.
+    Elka Rainwear A/S
+    FM Bygningsdrift ApS
+    Folkeferie.dk
+    Forsikringsforbundet 
+    Get Visual A/S
+    Getama
+    Hadsten Varmeværk A M B A
+    Hedensted Gruppen A/S
+
 }
 
 # Main script
