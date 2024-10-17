@@ -133,22 +133,38 @@ $menuOptions = [ordered]@{
     "2" = "Arbejdermuseet";
     "3" = "Bactoforce International";
     "4" = "BlueFox";
-    Brødrene Kier A/S
-    Center for Selvmordsforskning
-    Charles Christensen A/S
-    DANVA
-    Deichmann Planter ApS
-    Den Jyske Sangskole
-    Danmarks Jægerforbund
-    E. Michaelis & Co.
-    Elka Rainwear A/S
-    FM Bygningsdrift ApS
-    Folkeferie.dk
-    Forsikringsforbundet 
-    Get Visual A/S
-    Getama
-    Hadsten Varmeværk A M B A
-    Hedensted Gruppen A/S
+    "5" = "Brødrene Kier A/S";
+    "6" = "Center for Selvmordsforskning";
+    "7" = "Charles Christensen A/S";
+    "8" = "DANVA";
+    "9" = "Deichmann Planter ApS";
+    "10" = "Den Jyske Sangskole";
+    "11" = "Danmarks Jægerforbund";
+    "12" = "E. Michaelis & Co.";
+    "13" = "Elka Rainwear A/S";
+    "14" = "FM Bygningsdrift ApS";
+    "15" = "Folkeferie.dk";
+    "16" = "Forsikringsforbundet ";
+    "17" = "Get Visual A/S";
+    "18" = "Getama";
+    "19" = "Hadsten Varmeværk A M B A";
+    "20" = "Hedensted Gruppen A/S";
+    "21" = "Jørgensen & Utoft A/S";
+    "22" = "Kjøbenhavns Boldklub";
+    "23" = "LINDLARSEN a/s";
+    "24" = "Mette Munk A/S";
+    "25" = "Uno-X Smøreolie A/S";
+    "26" = "Palcut A/S";
+    "27" = "Patentgruppen A/S";
+    "28" = "Plushusene Management ApS";
+    "29" = "Randstad";
+    "30" = "RIB A/S";
+    "31" = "Stenhøj Hydraulik A/S";
+    "32" = "System Cleaners A/S";
+    "33" = "System Standex A/S ";
+    "34" = "Yab Yum Clothing co ApS";
+    "35" = "Aarstiderne.com";
+    
 
 }
 
