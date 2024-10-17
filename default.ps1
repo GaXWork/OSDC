@@ -191,157 +191,126 @@ do {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "5" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "6" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "7" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "8" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "9" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "10" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "11" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "12" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "13" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "14" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "15" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "16" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "17" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "18" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "19" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "20" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "21" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "22" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "23" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "24" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "25" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "26" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "27" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "28" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "29" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "30" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "31" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "32" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "33" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "34" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
-         }
         "35" {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
