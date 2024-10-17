@@ -191,6 +191,10 @@ do {
             Write-Host "You selected: $($menuOptions[$selection])"
             $BrandName2 = $($menuOptions[$selection])            
         }
+                "5" {
+            Write-Host "You selected: $($menuOptions[$selection])"
+            $BrandName2 = $($menuOptions[$selection])            
+        }
         default {
             Write-Host "Invalid selection. Please try again."
              $selection = $null
